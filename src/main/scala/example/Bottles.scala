@@ -10,6 +10,7 @@ object Bottles {
         case 1 => println("Go to the store and buy some more, 99 bottles of beer on the wall.")
         case _ => println(s"Take one down and pass it around, $nextCount $nextBottles of beer on the wall")
       }
+      println()
     }
   }
 
